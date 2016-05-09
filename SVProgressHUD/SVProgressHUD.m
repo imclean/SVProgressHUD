@@ -1288,6 +1288,7 @@ static const CGFloat SVProgressHUDDefaultAnimationDuration = 0.15;
     if(!_imageView.superview) {
         [self.hudView addSubview:_imageView];
     }
+    [_imageView setContentMode:UIViewContentModeScaleAspectFit];
     return _imageView;
 }
 
