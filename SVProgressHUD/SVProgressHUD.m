@@ -382,7 +382,7 @@ static const CGFloat SVProgressHUDDefaultAnimationDuration = 0.15;
 - (void)updateHUDFrame {
     // For the beginning use default values, these
     // might get update if string is too large etc.
-    CGFloat hudWidth = 100.0f;
+    CGFloat hudWidth = 200.0f;
     CGFloat hudHeight = 200.0f;
     CGFloat stringHeightBuffer = 20.0f;
     CGFloat stringAndContentHeightBuffer = 180.0f;
