@@ -384,7 +384,7 @@ static const CGFloat SVProgressHUDDefaultAnimationDuration = 0.15;
     // might get update if string is too large etc.
     CGFloat hudWidth = 200.0f;
     CGFloat hudHeight = 200.0f;
-    CGFloat stringHeightBuffer = 20.0f;
+    CGFloat stringHeightBuffer = 30.0f;
     CGFloat stringAndContentHeightBuffer = 180.0f;
     CGRect labelRect = CGRectZero;
     
