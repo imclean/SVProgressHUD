@@ -92,7 +92,7 @@ typedef NS_ENUM(NSUInteger, SVProgressHUDAnimationType) {
 + (void)setFadeOutAnimationDuration:(NSTimeInterval)duration;       // default is 0.15 seconds
 
 #pragma mark - Show Methods
-
++ (SVProgressHUD*)sharedView;
 + (void)show;
 + (void)showWithMaskType:(SVProgressHUDMaskType)maskType __attribute__((deprecated("Use show and setDefaultMaskType: instead.")));
 + (void)showWithStatus:(NSString*)status;
