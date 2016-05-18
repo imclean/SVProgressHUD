@@ -45,6 +45,7 @@ typedef NS_ENUM(NSUInteger, SVProgressHUDAnimationType) {
 @interface SVProgressHUD : UIView
 
 #pragma mark - Customization
+@property (nonatomic, strong) UILabel *statusLabel;
 
 @property (assign, nonatomic) SVProgressHUDStyle defaultStyle UI_APPEARANCE_SELECTOR;                   // default is SVProgressHUDStyleLight
 @property (assign, nonatomic) SVProgressHUDMaskType defaultMaskType UI_APPEARANCE_SELECTOR;             // default is SVProgressHUDMaskTypeNone
